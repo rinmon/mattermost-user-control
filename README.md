@@ -15,11 +15,6 @@
 
 python mattermost-user-control.py
 
-### オプション
-- `--create-user`: 新規ユーザーの作成
-- `--delete-user`: ユーザーの削除
-- `--set-permissions`: ユーザーの権限設定
-
 ### 依存関係
 - Python 3.x
 - requests ライブラリ

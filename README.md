@@ -2,6 +2,9 @@
 
 ## 概要
 このプロジェクトは、Mattermostユーザーの管理を行うためのスクリプトです。
+ご興味のある方は以下のMattermostサイトに参加してみてください。
+# [ワチャワチャするサイト](https://mattermost.chotto.news/)
+
 
 ## mattermost-user-control.py
 ### 概要

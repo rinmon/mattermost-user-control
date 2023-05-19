@@ -5,6 +5,32 @@
 ご興味のある方は以下のMattermostサイトに参加してみてください。
 # [ワチャワチャするサイト](https://mattermost.chotto.news/)
 
+### register_users.py
+
+概要
+
+`register_users.py`は、CSVファイルからユーザー情報を読み取り、新規Mattermostユーザーを作成し、指定されたチームとチャンネルに追加するためのスクリプトです。
+
+主な機能は以下の通りです：
+
+- CSVファイルからユーザー情報（メール、ユーザーネーム、パスワード、名前、姓）を読み込む
+- 新規ユーザーをMattermostに作成する
+- ユーザーを指定されたチームに追加する
+- ユーザーを指定されたチャンネルに追加する
+
+使用方法
+
+`python register_users.py`
+
+依存関係
+
+- Python 3.x
+- requests ライブラリ
+- pandas ライブラリ
+
+注意事項
+
+- このスクリプトはconfig.jsonとCSVファイルを読み込む必要があります。config.jsonにはMattermostのURLとトークンを、CSVファイルには作成するユーザーの情報とそのユーザーを追加するチーム名とチャンネル名を含めてください。
 
 ## mattermost-user-control.py
 ### 概要
